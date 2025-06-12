@@ -8,4 +8,5 @@
   - [ ] Generate a CSV file named `routes.csv` in the root of the Rails application.
 - [ ] **Integrate with Rails:** Use a `Railtie` to automatically load the new Rake task into any Rails application that includes the gem.
 - [ ] **Documentation:** Write a `README.md` to explain how to install and use the gem.
+  - [x] Correct missing documentation in `rails_routes_csv.gemspec`
 - [ ] **Testing:** Set up a testing framework and write tests to ensure the Rake task works as expected.
