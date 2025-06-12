@@ -7,8 +7,16 @@
   - [x] Format the route information (verb, path, controller, action, prefix).
   - [x] Generate a CSV file named `routes.csv` in the root of the Rails application.
 - [x] **Integrate with Rails:** Use a `Railtie` to automatically load the new Rake task into any Rails application that includes the gem.
-- [ ] **Documentation:** Write a `README.md` to explain how to install and use the gem.
+- [ ] **Documentation:** 
+  - [ ] Write a `README.md` to explain how to install and use the gem.
+    - [ ] explain how to set this up in one's gemfile
+    - [ ] explain how to run it `bin/rails routes:csv`, and any/all command line options
+    - [ ] add an accurate Contributing section
   - [x] Correct missing documentation in `rails_routes_csv.gemspec`
+- [ ] **Finesse features:**
+  - [ ] add a command line option(s) to exclude built-in Rails things
+    - [ ] to exclude any URL pattern provided by Rails (including `/rails/*`, or the Turbo-related URL patterns (`/*historical_location`)
+  - [ ] add a help command that shows further available options and shows up when one types `bin/rails routes:csv --help`
 - [ ] **Ergonomics:**
   - [ ] Configure Rubocop
   - [ ] add pre-commit hooks
