@@ -1,6 +1,6 @@
 # Development Tasks
 
-- [ ] **Initialize the Gem:** Use `bundler` to generate a standard directory structure for the new gem, `rails_routes_csv`.
+- [x] **Initialize the Gem:** Use `bundler` to generate a standard directory structure for the new gem, `rails_routes_csv`.
 - [ ] **Define Dependencies:** Specify the necessary dependencies in the `rails_routes_csv.gemspec` file. This gem will need `railties` to integrate with Rails.
 - [ ] **Create the Rake Task:** Create a Rake task in `lib/tasks/routes.rake`. This task will contain the logic to:
   - [ ] Access all the application's routes.
