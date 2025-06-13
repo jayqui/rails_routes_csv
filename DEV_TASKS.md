@@ -14,14 +14,14 @@
     - [ ] add an accurate Contributing section
   - [x] Correct missing documentation in `rails_routes_csv.gemspec`
 - [ ] **Finesse features:**
-  - [ ] add a command line option(s) to exclude built-in Rails things
-    - [ ] to exclude any URL pattern provided by Rails (including `/rails/*`, or the Turbo-related URL patterns (`/*historical_location`)
-  - [ ] add a help command that shows further available options and shows up when one types `bin/rails routes:csv --help`
+  - [ ] ~~add a command line option(s) to exclude built-in Rails things~~
+    - [ ] ~~to exclude any URL pattern provided by Rails (including `/rails/*`, or the Turbo-related URL patterns (`/*historical_location`)~~
+  - [ ] ~~add a help command that shows further available options and shows up when one types `bin/rails routes:csv --help`~~
 - [ ] **Ergonomics:**
   - [ ] Configure Rubocop
   - [ ] add pre-commit hooks
     - [ ] For Rubocop
-- [ ] **Testing:** Set up a testing framework and write tests to ensure the Rake task works as expected.
-  - [ ] Set up CI in GitHub
+- [x] **Testing:** Set up a testing framework and write tests to ensure the Rake task works as expected.
     - [ ] Run test suite
-    - [ ] Run Rubocop
+    - [ ] Set up CI in GitHub
+    - [ ] Run Rubocop in GitHub
