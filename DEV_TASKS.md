@@ -18,7 +18,8 @@
     - [ ] ~~to exclude any URL pattern provided by Rails (including `/rails/*`, or the Turbo-related URL patterns (`/*historical_location`)~~
   - [ ] ~~add a help command that shows further available options and shows up when one types `bin/rails routes:csv --help`~~
 - [ ] **Ergonomics:**
-  - [ ] Configure Rubocop
+  - [x] Configure Rubocop
+    - [x] run it and do auto-corrections
   - [ ] add pre-commit hooks
     - [ ] For Rubocop
 - [x] **Testing:** Set up a testing framework and write tests to ensure the Rake task works as expected.

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_routes_csv'
 require 'rails'
 
@@ -9,4 +11,4 @@ module RailsRoutesCsv
       load File.expand_path('../tasks/routes.rake', __dir__)
     end
   end
-end 
+end

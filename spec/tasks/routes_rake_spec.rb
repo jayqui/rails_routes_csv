@@ -31,7 +31,8 @@ RSpec.describe 'routes:csv' do
     route2 = double('Route', name: 'new_user', verb: 'GET', path: double(spec: double(to_s: '/users/new(.:format)')),
                              defaults: { controller: 'users', action: 'new' })
     internal_route = double('Route', name: nil, verb: 'GET',
-                                     path: double(spec: double(to_s: '/rails/info/properties')), defaults: { controller: 'rails/info', action: 'properties' })
+                                     path: double(spec: double(to_s: '/rails/info/properties')),
+                                     defaults: { controller: 'rails/info', action: 'properties' })
 
     # Set the return value for the routes call
     allow(routes_double).to receive(:routes).and_return([route1, route2, internal_route])
